@@ -1,0 +1,32 @@
+{
+  "name": "ratio-engine-ts",
+  "version": "0.1.0",
+  "description": "Tiny zero-dependency TypeScript engine for category-pair ratio systems (loyalty tiers, swap platforms, multi-currency conversion).",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ratio",
+    "tiers",
+    "loyalty",
+    "currency-conversion",
+    "exchange-rate",
+    "typescript"
+  ],
+  "author": "kiki007-lab",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitest/ui": "^2.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
